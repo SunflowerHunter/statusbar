@@ -1,4 +1,5 @@
 #!/bin/sh
+# change intel_backlight to the correct device if you arent on intel graphics
 cur=`cat /sys/class/backlight/intel_backlight/brightness`
 max=`cat /sys/class/backlight/intel_backlight/max_brightness`
 
